@@ -3,6 +3,7 @@ def generate_random_char(sets):
    chosen_set = random.choice(sets)
    return random.choic(chosen_set) 
 
+
 def generate_strong_password(length, include_lower, include_upper, include_digits, include_symbols):
    character_sets = []
    if include_lower:
